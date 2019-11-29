@@ -1,0 +1,40 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#       BungeeStaffChat+         #
+#         Configuration          #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+
+##~~~~~~~~~~~~~~##
+##              ##
+## Config Notes ##
+##              ##
+##~~~~~~~~~~~~~~##
+
+##Permissions:
+##staffchat.notify
+##staffchat.use
+##staffchat.toggle
+##staffchat.*
+
+##Notify Permission node shows the messages that are sent to the proxy
+
+##Use allows the player to use /sc (message) but doesn't let them toggle
+
+##Player requires toggle and use to be able to Toggle and use staffchat
+
+##staffchat.* gives player ALL PERMISSIONS
+
+
+##There are also build in placeholders!
+##
+##%staffchat_sender%   ##<-- Gets who sent the message
+##%staffchat_server%   ##<-- Gets their server!
+general:
+  
+  ##This is the plugin prefix (aka: [BungeeStaffChat])
+  ##You CAN use custom color codes
+  
+  prefix: "&a[BungeeStaffChat]"
+  
+  ##Note the message will be applied at the end
+  format: "&9[%staffchat_server%] %staffchat_sender%: &f"

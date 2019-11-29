@@ -1,0 +1,13 @@
+name: BungeeStaffChat+
+author: San
+version: 0.1
+description: Powers all your staff chat needs through BungeeCord!
+main: me.san.bscplus.BungeeStaffChat
+
+commands:
+  sc:
+    usage: /<command>
+    description: Send a staff message to all servers!
+  sct:
+    usage: /<command>
+    description: Toggle on and off your staff chat!
